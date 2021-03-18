@@ -13,7 +13,7 @@ const Home = () => {
 
     return (
         <div>
-            <h1>This is Home</h1>
+            <h1>This is Home </h1>
             <h3> I have got {posts.length} Posts</h3>
             {
                 posts.map(post => <Post post={post}></Post>)

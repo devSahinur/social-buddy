@@ -5,6 +5,7 @@ import Comments from '../Comments/Comments';
 const PostDetails = () => {
     const {id} = useParams();
     const [post, setPost] = useState({});
+    console.log(post);
     const [comments, setComments] = useState([])
 
     useEffect(() => {
